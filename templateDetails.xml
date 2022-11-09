@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.7//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.0" type="template" client="site">
+    <name>rmskaliby</name>
+    <creationDate>2020-11-01</creationDate>
+    <author>392621</author>
+    <authorEmail>rmskaliby@gmail.com</authorEmail>
+    <authorUrl>rmskaliby</authorUrl>
+    <copyright>© 2020 УСП "Трест" Реммонтажстрой. All Rights Reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0.0</version>
+    <description>TPL_RMSKALIBY_XML_DESCRIPTION</description>
+
+    <files>
+        <folder>css</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+	<folder>font</folder>
+        <folder>language</folder>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>favicon.ico</filename>
+        <filename>index.php</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+
+    <positions>
+        <position>header__left</position>
+        <position>header__right</position>
+        <position>menu</position>
+        <position>search</position>
+        <position>breadcrumbs</position>
+        <position>position0</position>
+        <position>position1</position>
+        <position>position2</position>
+        <position>position3</position>
+        
+        
+    </positions>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_rmskaliby.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_rmskaliby.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_rmskaliby.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_rmskaliby.sys.ini</language>
+    </languages>
+    
+</extension>
